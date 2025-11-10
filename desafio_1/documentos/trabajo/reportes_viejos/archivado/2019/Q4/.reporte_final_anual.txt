@@ -1,0 +1,9 @@
+¡Felicidades! Encontraste el archivo correcto.
+¡Te tomó un tiempo llegar hasta aquí!
+
+La primera flag es:
+FLAG{N4v3g4d0r_3xp3rt0}
+
+Pistas para el siguiente desafío:
+Encontrarás un archivo 'desafio_2.zip'. La contraseña es la flag que acabas de encontrar.
+Hay un script "validador.sh" en algún lugar del directorio "desafio_2".
