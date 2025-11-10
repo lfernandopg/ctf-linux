@@ -14,9 +14,11 @@ $(EJECUTABLE): $(OBJETOS)
 	$(CC) $(CFLAGS) -o $(EJECUTABLE) $(OBJETOS) $(LIBS)
 
 main.o: main.c impresor.h
+	$(CC) $(CFLAGS) -c main.c -o main.o
 	
 
 impresor.o: impresor.c impresor.h flag_secreta.h
+	$(CC) $(CFLAGS) -c impresor.c -o impresor.o
 	
 
 clean:
